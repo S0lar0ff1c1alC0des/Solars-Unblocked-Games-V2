@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SolarSiteV2</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="gamecontainer.css">
+</head>
+
+<body>
+  <div id="container">
+    <header id="gameTitle"></header>
+    <div id="startingScreen">
+      <button id="playButton" onclick="startGame()">Play</button>
+    </div>
+    <div id="gameFrameContainer">
+      <iframe id="gameFrame" src="" frameborder="0"></iframe>
+    </div>
+    <div id="toolbar">
+      <button id="homeButton" onclick="goHome()" title="Home"></button>
+      <button id="fullscreenButton" onclick="toggleSize()" title="Toggle Size"></button>
+    </div>
+  </div>
+  <script src="gamecontainer.js"></script>
+</body>
+
+</html>
