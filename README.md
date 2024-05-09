@@ -7,4 +7,18 @@
 
 
 
+Partnered with Gamezify, check em out!
 
+
+
+
+# Reminder
+I am new to this, don't expect updates or don't rush me.
+
+
+
+# What does Solar provide?
+Games!
+Proxies!
+Game Requesting! 
+Partner Requesting!
