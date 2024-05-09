@@ -22,3 +22,12 @@ Games!
 Proxies!
 Game Requesting! 
 Partner Requesting!
+
+
+
+# Discord
+https://discord.gg/TDTZqyAcP2
+
+
+
+# We post our updates there.
