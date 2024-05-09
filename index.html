@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SolarSite V2</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <script>
+      if (!localStorage.getItem("visited")) {
+        window.location.href = "/pages/educational_Portal.html";
+      }
+
+      localStorage.setItem("visited", true);
+    </script>
+    <div class="navigationBar">
+      <a class="active" href="/index.html""><img src="/images/Home_Logo.png" style="height: 25px; width:25px;"/></a>
+      <a href="/pages/games.html">Games</a>
+    </div>
+    <div class="splash-screen" id="splashScreen">
+      <p>Welcome To SolarSiteV2</p>
+    </div>
+    <div id="mainContent" style="display: none">
+      <header>Home</header>
+      <p>Made By: Sol</p>
+    </div>
+    <script>
+      window.addEventListener("beforeunload", function (event) {
+        localStorage.removeItem("visited");
+      });
+    </script>
+    <script src="/script.js"></script>
+
+    <div
+      style="margin-top: 500px; padding: 10px; background-color: rgb(255, 249, 249); width: 100%; text-align: center;"
+    >
+      <p>Page View Counter!</p>
+      <a href="https://www.hitwebcounter.com" target="_blank">
+        <img
+          src="https://hitwebcounter.com/counter/counter.php?page=12709326&style=0001&nbdigits=9&type=page&initCount=93"
+          title="Counter Widget"
+          alt="Visit counter For Websites"
+          border="0"
+      /></a>
+
+      <p>Copyright SolarSiteV2 2023</p>
+      <p>Thank you for viewing our site!</p>
+    </div>
+  </body>
+</html>
